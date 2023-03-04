@@ -412,24 +412,3 @@ FROM god
 	JOIN race ON god.race = race.value
 	JOIN trauma ON god.traustreflg = trauma.value
 GROUP BY gender.value, gender.label, race.label, trauma.label;
-</string>
-			<key>view</key>
-			<string>SP_VIEW_CUSTOMQUERY</string>
-			<key>windowVerticalDividerPosition</key>
-			<real>172.5</real>
-		</dict>
-	</dict>
-	<key>encrypted</key>
-	<false/>
-	<key>format</key>
-	<string>connection</string>
-	<key>queryFavorites</key>
-	<array/>
-	<key>rdbms_type</key>
-	<string>mysql</string>
-	<key>rdbms_version</key>
-	<string>8.0.32</string>
-	<key>version</key>
-	<integer>1</integer>
-</dict>
-</plist>
